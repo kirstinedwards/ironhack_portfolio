@@ -1,0 +1,150 @@
+/* General Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ html {
+     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #2d2d2d;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: #fff;
+    width: 100vw;
+    padding: 0 120px;
+    position: fixed;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar img {
+    height: 20px;
+    width: 20px;
+}
+
+#navbar ul li:last-child img {
+    height: 15px;
+    width: 25px;
+}
+
+#navbar .behance { 
+    height: 15px;
+    width: 25px;
+}
+
+#navbar ul li a {
+    margin-right: 50px;
+}
+
+#navbar ul li:last-child a {
+    margin-right: 0px;
+}
+
+#navbar .icons li a {
+    margin-right: 30px;
+}
+
+/* Intro Section */
+#intro {
+    background: #b4d1da;
+    height: 100vh;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+}
+
+#intro h1 {
+    max-width: 900px;
+}
+
+/* Projects */
+#projects div {
+    display: flex;
+}
+ #projects div img {
+     width: 50vw;
+ }
+
+ /* About Me */
+ #about {
+     min-height: 700px;
+     padding: 0 120px; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ #about h1 {
+     margin-bottom: 96x;
+ }
+
+ #about .text{
+     display: flex;
+     gap: 20px;
+ }
+
+ /* Footer */
+
+ footer {
+     background: #b4d1da;
+     min-height: 350px;
+     padding: 0 120px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ footer h1 {
+     margin-bottom: 56px;
+ }
+ 
+ footer .back {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ footer .back a img {
+     width: 35px;
+     height: 20px;
+ }
+
+ footer .back a p {
+     color: #fff;
+     font-weight: 700;
+ }
